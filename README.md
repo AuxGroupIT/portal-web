@@ -2,7 +2,7 @@
 
 > A Vue.js project
 
-## 预览 (https://auxgroupit.github.io/portal-web/dist/index.html)
+## [预览](https://auxgroupit.github.io/portal-web/dist/index.html)
 
 ## Build Setup
 
