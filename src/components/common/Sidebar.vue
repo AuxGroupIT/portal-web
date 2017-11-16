@@ -26,9 +26,9 @@
 
                 
                 <li>
-                    <router-link to="/blank">
+                    <router-link to="/portal">
                         <i class="fa fa-files-o"></i>
-                        <span class="nav-label">空白页</span>
+                        <span class="nav-label">门户页</span>
                     </router-link>
                     <ul></ul>
                 </li>
