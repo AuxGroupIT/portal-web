@@ -1,6 +1,6 @@
 <template>
 <div class="wrapper wrapper-content animated fadeInRight">
-    <iframe src="http://open.auxgroup.com/#/doc" width="100%" height="600px"  frameborder="0" id="iframeId"></iframe>
+    <iframe src="https://www.baidu.com/" width="100%" height="600px"  frameborder="0" id="iframeId"></iframe>
     <div class="social-feed-box">
     <div class="pull-right social-action dropdown">
         <ul class="dropdown-menu m-t-xs">

@@ -1,15 +1,15 @@
 <template>
     <div class="middle-box text-center animated fadeInDown">
         <h1>404</h1>
-        <h3 class="font-bold">Page Not Found</h3>
+        <h3 class="font-bold">页面丢失啦~</h3>
 
         <div class="error-desc">
-            Sorry, but the page you are looking for has note been found. Try checking the URL for error, then hit the refresh button on your browser or try found something else in our app.
+            试着检查URL的错误，然后点击浏览器上的刷新按钮，或者在我们的应用中找到其他的东西。
             <form class="form-inline m-t" role="form">
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="Search for page">
                 </div>
-                <button type="submit" class="btn btn-primary">Search</button>
+                <button type="submit" class="btn btn-primary">查找</button>
             </form>
         </div>
     </div>

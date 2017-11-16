@@ -41,7 +41,7 @@
                     <ul></ul>
                 </li>
                 <!-- <SidebarItem :data="data"></SidebarItem> -->
-                <SidebarItem v-for="item in data.children" :key="item.id" :data="item"></SidebarItem>
+                <SidebarItem v-for="item in data.children" :key="item.id" :data="item" :path="'#'+ item.path"></SidebarItem>
             </ul>
 
         </div>
