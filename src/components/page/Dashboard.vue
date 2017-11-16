@@ -53,9 +53,7 @@ export default {
 
     },
     mounted(){
-        console.log($(window).height())
-        $('#iframeId').height($(window).height() - 135);
-        console.log($('#iframeId').height())
+        $('#iframeId').height($('#wrapper').height() - 135);
     }
 }
 
