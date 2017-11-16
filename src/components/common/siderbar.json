@@ -1,0 +1,374 @@
+[
+    {
+        "id": "1",
+        "pid": "0",
+        "name": "root",
+        "path": "root",
+        "iconCls": "test",
+        "component": "root.vue",
+        "sort": 0,
+        "depth": -1,
+        "url": null,
+        "reportId": "",
+        "enabled": "T",
+        "type": "NormalMenu",
+        "updatedBy": null,
+        "updatedTime": null,
+        "createdBy": null,
+        "createdTime": null,
+        "children": [
+            {
+                "id": "a74879eb49f249749886a086f969bd10",
+                "pid": "1",
+                "name": "数据安全",
+                "path": "/DataSecurity",
+                "iconCls": "fa-book",
+                "component": "Home.vue",
+                "sort": 0,
+                "depth": 0,
+                "url": null,
+                "reportId": null,
+                "enabled": "T",
+                "type": "NormalMenu",
+                "updatedBy": null,
+                "updatedTime": null,
+                "createdBy": null,
+                "createdTime": null,
+                "children": [
+                    {
+                        "id": "a74879eb49f249749886a086f969bd11",
+                        "pid": "a74879eb49f249749886a086f969bd10",
+                        "name": "对象组",
+                        "path": "datasecurity",
+                        "iconCls": "fa-qrcode",
+                        "component": "DataSecurity/ObjectGroup.vue",
+                        "sort": 1,
+                        "depth": 1,
+                        "url": null,
+                        "reportId": null,
+                        "enabled": "T",
+                        "type": "NormalMenu",
+                        "updatedBy": null,
+                        "updatedTime": null,
+                        "createdBy": null,
+                        "createdTime": null,
+                        "children": [
+                            
+                        ]
+                    },
+                    {
+                        "id": "ab4879eb49f249749886a086f969bd11",
+                        "pid": "a74879eb49f249749886a086f969bd10",
+                        "name": "数据访问权限分配",
+                        "path": "dataassignment",
+                        "iconCls": "fa-qrcode",
+                        "component": "DataSecurity/DataAccessAssignment.vue",
+                        "sort": 1,
+                        "depth": 1,
+                        "url": null,
+                        "reportId": null,
+                        "enabled": "T",
+                        "type": "NormalMenu",
+                        "updatedBy": null,
+                        "updatedTime": null,
+                        "createdBy": null,
+                        "createdTime": null,
+                        "children": [
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "d44777cc5fe4404dbd131d027e62cd81",
+                "pid": "1",
+                "name": "文档",
+                "path": "/doc",
+                "iconCls": "fa-book",
+                "component": "Home.vue",
+                "sort": 0,
+                "depth": 0,
+                "url": null,
+                "reportId": null,
+                "enabled": "T",
+                "type": "NormalMenu",
+                "updatedBy": null,
+                "updatedTime": null,
+                "createdBy": null,
+                "createdTime": null,
+                "children": [
+                    {
+                        "id": "6fe345a673834502a8b138e9478ec3e4",
+                        "pid": "d44777cc5fe4404dbd131d027e62cd81",
+                        "name": "11",
+                        "path": "111",
+                        "iconCls": "",
+                        "component": "bas/ReportTemplate.vue",
+                        "sort": 0,
+                        "depth": 1,
+                        "url": "",
+                        "reportId": "",
+                        "enabled": "T",
+                        "type": "11",
+                        "updatedBy": null,
+                        "updatedTime": null,
+                        "createdBy": null,
+                        "createdTime": null,
+                        "children": [
+                            
+                        ]
+                    },
+                    {
+                        "id": "91bc3ae4a8cc4392aeb9b1c02657c079",
+                        "pid": "d44777cc5fe4404dbd131d027e62cd81",
+                        "name": "管理",
+                        "path": "manage",
+                        "iconCls": "fa-qrcode",
+                        "component": "doc/Doc.vue",
+                        "sort": 0,
+                        "depth": 1,
+                        "url": null,
+                        "reportId": null,
+                        "enabled": "T",
+                        "type": "NormalMenu",
+                        "updatedBy": null,
+                        "updatedTime": null,
+                        "createdBy": null,
+                        "createdTime": null,
+                        "children": [
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "e428404c6ff249f4a6ad54ebf1248225",
+                "pid": "1",
+                "name": "报表",
+                "path": "/report",
+                "iconCls": "fa-book",
+                "component": "bas/ReportTemplate.vue",
+                "sort": 2,
+                "depth": 0,
+                "url": "",
+                "reportId": "",
+                "enabled": "T",
+                "type": "ReportMenu",
+                "updatedBy": null,
+                "updatedTime": null,
+                "createdBy": null,
+                "createdTime": null,
+                "children": [
+                    {
+                        "id": "4cd82566dd754184b1435e9e0c7b64b1",
+                        "pid": "e428404c6ff249f4a6ad54ebf1248225",
+                        "name": "测试一",
+                        "path": "test1",
+                        "iconCls": "fa-book",
+                        "component": "bas/ReportTemplate.vue",
+                        "sort": 0,
+                        "depth": 1,
+                        "url": "",
+                        "reportId": "",
+                        "enabled": "T",
+                        "type": "ReportMenu",
+                        "updatedBy": null,
+                        "updatedTime": null,
+                        "createdBy": null,
+                        "createdTime": null,
+                        "children": [
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "aa90aa8765d848cb908943fb931cd653",
+                "pid": "1",
+                "name": "设置",
+                "path": "/sys",
+                "iconCls": "fa-cog",
+                "component": "Home.vue",
+                "sort": 7,
+                "depth": 0,
+                "url": null,
+                "reportId": null,
+                "enabled": "T",
+                "type": "NormalMenu",
+                "updatedBy": null,
+                "updatedTime": null,
+                "createdBy": null,
+                "createdTime": null,
+                "children": [
+                    {
+                        "id": "aa118ef9aaeb4461be00e159633ce342",
+                        "pid": "aa90aa8765d848cb908943fb931cd653",
+                        "name": "ss",
+                        "path": "rr",
+                        "iconCls": "fa-qrcode",
+                        "component": "bas/ReportTemplate.vue",
+                        "sort": 0,
+                        "depth": 1,
+                        "url": "",
+                        "reportId": "",
+                        "enabled": "T",
+                        "type": "ReportMenu",
+                        "updatedBy": null,
+                        "updatedTime": null,
+                        "createdBy": null,
+                        "createdTime": null,
+                        "children": [
+                            {
+                                "id": "cbc039171ebd4e94a8e2a77133d996ce",
+                                "pid": "aa118ef9aaeb4461be00e159633ce342",
+                                "name": "ss2",
+                                "path": "ss2",
+                                "iconCls": "fa-book",
+                                "component": "bas/ReportTemplate.vue",
+                                "sort": 1,
+                                "depth": 2,
+                                "url": "",
+                                "reportId": "",
+                                "enabled": "T",
+                                "type": "ReportMenu",
+                                "updatedBy": null,
+                                "updatedTime": null,
+                                "createdBy": null,
+                                "createdTime": null,
+                                "children": [
+                                    
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "d3b1bf68ae8940b59b5e80086ccb0dc3",
+                        "pid": "aa90aa8765d848cb908943fb931cd653",
+                        "name": "dd",
+                        "path": "ddd2",
+                        "iconCls": "fa-qrcode",
+                        "component": "bas/ReportTemplate.vue",
+                        "sort": 0,
+                        "depth": 1,
+                        "url": "",
+                        "reportId": "",
+                        "enabled": "T",
+                        "type": "ReportMenu",
+                        "updatedBy": null,
+                        "updatedTime": null,
+                        "createdBy": null,
+                        "createdTime": null,
+                        "children": [
+                            
+                        ]
+                    },
+                    {
+                        "id": "e7fe79a483bb48a0b0f1e08bf40b7dc8",
+                        "pid": "aa90aa8765d848cb908943fb931cd653",
+                        "name": "报表测试",
+                        "path": "test",
+                        "iconCls": "fa-qrcode",
+                        "component": "bas/ReportTemplate.vue",
+                        "sort": 1,
+                        "depth": 1,
+                        "url": "",
+                        "reportId": "",
+                        "enabled": "T",
+                        "type": "ReportMenu",
+                        "updatedBy": null,
+                        "updatedTime": null,
+                        "createdBy": null,
+                        "createdTime": null,
+                        "children": [
+                            
+                        ]
+                    },
+                    {
+                        "id": "e9242cf8719e41bebc301a7f510a85ba",
+                        "pid": "aa90aa8765d848cb908943fb931cd653",
+                        "name": "码表",
+                        "path": "code",
+                        "iconCls": "fa-qrcode",
+                        "component": "bas/Code.vue",
+                        "sort": 1,
+                        "depth": 1,
+                        "url": null,
+                        "reportId": null,
+                        "enabled": "T",
+                        "type": "NormalMenu",
+                        "updatedBy": null,
+                        "updatedTime": null,
+                        "createdBy": null,
+                        "createdTime": null,
+                        "children": [
+                            
+                        ]
+                    },
+                    {
+                        "id": "a54879eb49f249749886a086f969bd10",
+                        "pid": "aa90aa8765d848cb908943fb931cd653",
+                        "name": "菜单",
+                        "path": "menu",
+                        "iconCls": "fa-qrcode",
+                        "component": "bas/Menu.vue",
+                        "sort": 2,
+                        "depth": 1,
+                        "url": null,
+                        "reportId": null,
+                        "enabled": "T",
+                        "type": "NormalMenu",
+                        "updatedBy": null,
+                        "updatedTime": null,
+                        "createdBy": null,
+                        "createdTime": null,
+                        "children": [
+                            
+                        ]
+                    },
+                    {
+                        "id": "6186df54d25349f5bf5787b9ec014a46",
+                        "pid": "aa90aa8765d848cb908943fb931cd653",
+                        "name": "角色",
+                        "path": "role",
+                        "iconCls": "fa-qrcode",
+                        "component": "bas/Role.vue",
+                        "sort": 3,
+                        "depth": 1,
+                        "url": null,
+                        "reportId": null,
+                        "enabled": "T",
+                        "type": "NormalMenu",
+                        "updatedBy": null,
+                        "updatedTime": null,
+                        "createdBy": null,
+                        "createdTime": null,
+                        "children": [
+                            
+                        ]
+                    },
+                    {
+                        "id": "ea057fbf63bd497bac42c0c069f020a6",
+                        "pid": "aa90aa8765d848cb908943fb931cd653",
+                        "name": "配置",
+                        "path": "setting",
+                        "iconCls": "fa-qrcode",
+                        "component": "bas/Setting.vue",
+                        "sort": 4,
+                        "depth": 1,
+                        "url": null,
+                        "reportId": null,
+                        "enabled": "T",
+                        "type": "NormalMenu",
+                        "updatedBy": null,
+                        "updatedTime": null,
+                        "createdBy": null,
+                        "createdTime": null,
+                        "children": [
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
