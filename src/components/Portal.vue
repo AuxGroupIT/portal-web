@@ -221,5 +221,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.header-back.one {
+background: url("../assets/images/header_one.jpg")  50% 0 no-repeat;
+}
+.header-back.two {
+background: url("../assets/images/header_two.jpg") 50% 0 no-repeat;
+}
+.contact {
+background-image: url("../assets/images/word_map.png");
+background-position: 50% 50%;
+background-repeat: no-repeat;
+margin-top: 60px;
+}
 
 </style>
