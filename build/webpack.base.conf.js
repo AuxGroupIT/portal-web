@@ -10,9 +10,11 @@ function resolve (dir) {
 }
 
 module.exports = {
+  context: path.resolve(__dirname, '../'),
   entry: {
     app: './src/main.js'
   },
+  watch:true,
   output: {
     path: config.build.assetsRoot,
     filename: '[name].js',
@@ -31,25 +33,6 @@ module.exports = {
   },
   module: {
     rules: [
-      // {
-      //   test: require.resolve('jquery'),
-      //   use: [{
-      //     loader: 'expose-loader',
-      //     options: 'jQuery'
-      //   },{
-      //     loader: 'expose-loader',
-      //     options: '$'
-      //   }]
-      // },
-      {
-        test: /\.(js|vue)$/,
-        loader: 'eslint-loader',
-        enforce: 'pre',
-        include: [resolve('src'), resolve('test')],
-        options: {
-          formatter: require('eslint-friendly-formatter')
-        }
-      },
       {
         test: /\.vue$/,
         loader: 'vue-loader',
@@ -80,10 +63,22 @@ module.exports = {
         test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
         loader: 'url-loader',
         options: {
-          limit: 80000,
+          limit: 50000,
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
       }
     ]
+  },
+  node: {
+    // prevent webpack from injecting useless setImmediate polyfill because Vue
+    // source contains it (although only uses it if it's native).
+    setImmediate: false,
+    // prevent webpack from injecting mocks to Node native modules
+    // that does not make sense for the client
+    dgram: 'empty',
+    fs: 'empty',
+    net: 'empty',
+    tls: 'empty',
+    child_process: 'empty'
   }
 }
